@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: "en" }}">
+  {%- include head.html -%}
+  <body a="{{ site.theme_config.appearance | default: "auto" }}">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        {{ content }}
+        <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Ftt-u.github.io&count_bg=%233D59C8&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=ttu&edge_flat=false"/></a>      </div>
+        <p style="text-align: center; margin-top: -40px; padding-bottom: 40px;">© ttu 2023</p>
+
+    </main>
+
+    {%-if site.goat_counter and jekyll.environment == "production"-%}
+
+      {%-include goat_counter.html-%}
+    {%-endif-%}
+  </body>
+</html>
