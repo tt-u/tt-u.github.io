@@ -4,7 +4,7 @@ email: ttu021216@gmail.com # email of site's author
 url: https://tt-u.github.io # root address of the site
 baseurl: "/" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: >
-  <p>ttu 的垃圾产出</p>
+  <p>ttu 的垃圾站</p>
 # description of the site (multiple lines allowed)
 
 permalink: /:slug.html
