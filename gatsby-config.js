@@ -8,7 +8,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Home`,
-    siteUrl: `https://tt-u.github.io/`,
+    siteUrl: `https://blockinsight.top/`,
   },
   plugins: [
     "gatsby-plugin-postcss",
